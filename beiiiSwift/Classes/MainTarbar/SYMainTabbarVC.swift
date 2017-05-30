@@ -74,9 +74,9 @@ class SYMainTabbarVC: UITabBarController {
         
         // 设置文字的样式/tabBarItem 文字样式
         var textAttrs = [String:UIColor]()
-        textAttrs[NSForegroundColorAttributeName] = UIColor.lightGray;
+        textAttrs[NSForegroundColorAttributeName] = UIColor.hexInt(0x7b7b7b);
         var selectTextAttrs = [String:UIColor]()
-        selectTextAttrs[NSForegroundColorAttributeName] = UIColor.green;
+        selectTextAttrs[NSForegroundColorAttributeName] = UIColor.hexInt(0x37B327);
         childVC.tabBarItem.setTitleTextAttributes(textAttrs, for:.normal)
         childVC.tabBarItem.setTitleTextAttributes(selectTextAttrs, for:.selected)
         

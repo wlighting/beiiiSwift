@@ -8,6 +8,10 @@
 
 import UIKit
 
+import SwiftyJSON
+
+import HandyJSON
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -21,7 +25,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = SYMainTabbarVC()
         window!.makeKeyAndVisible()
         
-        // Override point for customization after application launch.
+       SYHttpTool.shareInstance.requestData(methodType: .GET, urlString: "http://112.124.47.54:31370/startup/appconfig", parameters: nil) { (result, error) in
+        
+        if error != nil {
+            WLLog(error)
+        } else {
+            let json = JSON(result)
+            
+            WLLog(json)
+            
+        }
+        
+        }
+        
+       
         return true
     }
 

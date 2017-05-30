@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B89C7A3587FBB3F92689FA1 /* Pods_beiiiSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC515F720FD6A5CAA0675F41 /* Pods_beiiiSwift.framework */; };
-		6E12050A1EBE26D600048450 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1205091EBE26D600048450 /* ViewController.swift */; };
 		6E12050D1EBE26D600048450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E12050B1EBE26D600048450 /* Main.storyboard */; };
 		6E12050F1EBE26D600048450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E12050E1EBE26D600048450 /* Assets.xcassets */; };
 		6E1205121EBE26D600048450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1205101EBE26D600048450 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,7 @@
 		6E69B8431ED48D6E008B8E6E /* String+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E69B8401ED48D6E008B8E6E /* String+Extenstion.swift */; };
 		6E69B8441ED48D6E008B8E6E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E69B8411ED48D6E008B8E6E /* UIColor+Extension.swift */; };
 		6E69B8451ED48D6E008B8E6E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E69B8421ED48D6E008B8E6E /* UIView+Extension.swift */; };
+		6EB11ECF1EDDC36400678948 /* SYHttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB11ECE1EDDC36400678948 /* SYHttpTool.swift */; };
 		6EEA256A1ED3358400D4DB98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEA25671ED3358400D4DB98 /* AppDelegate.swift */; };
 		6EEA256C1ED337E700D4DB98 /* SYMainTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEA256B1ED337E700D4DB98 /* SYMainTabbarVC.swift */; };
 		6EEA25731ED3398600D4DB98 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEA25721ED3398600D4DB98 /* BaseViewController.swift */; };
@@ -31,7 +31,6 @@
 /* Begin PBXFileReference section */
 		6B9979A50520AED9190DF358 /* Pods-beiiiSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beiiiSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-beiiiSwift/Pods-beiiiSwift.release.xcconfig"; sourceTree = "<group>"; };
 		6E1205041EBE26D600048450 /* beiiiSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beiiiSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E1205091EBE26D600048450 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E12050C1EBE26D600048450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E12050E1EBE26D600048450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E1205111EBE26D600048450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		6E69B8401ED48D6E008B8E6E /* String+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extenstion.swift"; sourceTree = "<group>"; };
 		6E69B8411ED48D6E008B8E6E /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		6E69B8421ED48D6E008B8E6E /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		6EB11ECE1EDDC36400678948 /* SYHttpTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYHttpTool.swift; sourceTree = "<group>"; };
 		6EEA25671ED3358400D4DB98 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EEA256B1ED337E700D4DB98 /* SYMainTabbarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYMainTabbarVC.swift; sourceTree = "<group>"; };
 		6EEA25721ED3398600D4DB98 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				6EEA25621ED3358400D4DB98 /* Classes */,
-				6E1205091EBE26D600048450 /* ViewController.swift */,
 				6E12050B1EBE26D600048450 /* Main.storyboard */,
 				6E12050E1EBE26D600048450 /* Assets.xcassets */,
 				6E1205101EBE26D600048450 /* LaunchScreen.storyboard */,
@@ -158,6 +157,7 @@
 		6EEA25661ED3358400D4DB98 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				6EB11ECE1EDDC36400678948 /* SYHttpTool.swift */,
 				6E69B83F1ED48D6E008B8E6E /* Category */,
 				6E69B8371ED486F1008B8E6E /* beiiiSwift-Bridging-Header.h */,
 				6EEA25671ED3358400D4DB98 /* AppDelegate.swift */,
@@ -364,11 +364,11 @@
 				6EEA256A1ED3358400D4DB98 /* AppDelegate.swift in Sources */,
 				6E69B8451ED48D6E008B8E6E /* UIView+Extension.swift in Sources */,
 				6EEA25731ED3398600D4DB98 /* BaseViewController.swift in Sources */,
-				6E12050A1EBE26D600048450 /* ViewController.swift in Sources */,
 				6EEA25791ED33A3C00D4DB98 /* SYMineVC.swift in Sources */,
 				6E69B83C1ED48B28008B8E6E /* Common.swift in Sources */,
 				6E69B8441ED48D6E008B8E6E /* UIColor+Extension.swift in Sources */,
 				6EEA25751ED339FE00D4DB98 /* BaseNavigationController.swift in Sources */,
+				6EB11ECF1EDDC36400678948 /* SYHttpTool.swift in Sources */,
 				6EEA257B1ED33A5600D4DB98 /* SYRecommendVC.swift in Sources */,
 				6EEA25801ED33E4600D4DB98 /* SYServiecVC.swift in Sources */,
 				6EEA256C1ED337E700D4DB98 /* SYMainTabbarVC.swift in Sources */,
